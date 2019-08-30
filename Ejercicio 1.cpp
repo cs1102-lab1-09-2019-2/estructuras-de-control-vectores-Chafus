@@ -5,7 +5,7 @@ using namespace std;
 
 float promedio(vector<int> &lista);
 vector<int> leerConsola();
-int numero;
+float numero;
 
 vector<int> leerConsola() {
   vector<int>lista;
@@ -25,7 +25,7 @@ vector<int> leerConsola() {
 
 float promedio(vector<int> &lista) {
   float prom;
-  int a;
+  float a;
   for (auto i:lista){
     a = a + i ;
   }
